@@ -119,6 +119,63 @@ main .main-about {
 
 
 
+.our-team {
+    background-color: black;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+
+.our-team h1 {
+    position: relative;
+    font-size: 44px;
+    padding-bottom: 30px;
+    margin-bottom: 55px;
+}
+
+.our-team h1:after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background-color: #fcac45;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    margin: 30px;
+}
+
+.photo {
+    background-color: #d7d7d7;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin: 20px auto;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.position {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-position {
+    font-size: 14px;
+}
+
+
 
 
 
@@ -154,6 +211,9 @@ main .main-about {
         margin-top: 20px;
         font-size: 20px;
         padding-bottom: 10px;
+    }
+    .cards {
+        flex-direction: column;
     }
 }
 

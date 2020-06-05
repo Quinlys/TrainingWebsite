@@ -246,7 +246,7 @@ main .main-about {
 }
 
 .contact-wrapper {
-    width: 753px;
+    max-width: 753px;
     margin: 0 auto;
     color: #636363;
 }
@@ -391,6 +391,32 @@ textarea, input {
     }
     .services-cards {
         grid-template-columns: auto;
+    }
+
+    .form-inputs {
+        flex-direction: column;
+    }
+
+    .left-input, .right-input {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .form-inputs input {
+        width: 100%;
+    }
+
+    textarea, p {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .input-p {
+        margin-left: 0;
+    }
+
+    .button-block button {
+        margin-right: 5%;
     }
 }
 

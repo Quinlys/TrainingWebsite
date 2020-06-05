@@ -126,14 +126,14 @@ main .main-about {
     color: #fff;
 }
 
-.our-team h1, .main-services h1, .main-clients h1, .main-testimonials h1, .main-work h1 {
+.our-team h1, .main-services h1, .main-clients h1, .main-testimonials h1, .main-work h1, .contact-us h1 {
     position: relative;
     font-size: 44px;
     padding-bottom: 30px;
     margin-bottom: 55px;
 }
 
-.our-team h1:after, .main-services h1:after, .main-clients h1:after, .main-testimonials h1:after, .main-work h1:after{
+.our-team h1:after, .main-services h1:after, .main-clients h1:after, .main-testimonials h1:after, .main-work h1:after,.contact-us h1:after{
     content: "";
     position: absolute;
     bottom: 20px;
@@ -243,6 +243,65 @@ main .main-about {
 
 .main-work img {
     margin: 5px;
+}
+
+.contact-wrapper {
+    width: 753px;
+    margin: 0 auto;
+    color: #636363;
+}
+
+.form-inputs {
+    margin-top: 100px;
+    display: flex;
+}
+
+textarea {
+    width: 99.7%;
+    height: 163px;
+}
+
+input:first-of-type {
+    margin-right: 28px;
+}
+
+input {
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+textarea, input {
+    border: 1px solid #999999;
+    margin-top: 5px;
+}
+
+.button-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-block button {
+    border: 0;
+    margin: 15px 0 0 0;
+    width: 165px;
+    height: 40px;
+    background-color: #fcac45;
+    color: white;
+}
+
+.contact-us {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-us h1 {
+    color: #000;
+}
+
+.form {
+    text-align: left;
 }
 
 

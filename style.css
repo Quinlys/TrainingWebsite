@@ -126,14 +126,14 @@ main .main-about {
     color: #fff;
 }
 
-.our-team h1, .main-services h1, .main-clients h1, .main-testimonials h1 {
+.our-team h1, .main-services h1, .main-clients h1, .main-testimonials h1, .main-work h1 {
     position: relative;
     font-size: 44px;
     padding-bottom: 30px;
     margin-bottom: 55px;
 }
 
-.our-team h1:after, .main-services h1:after, .main-clients h1:after, .main-testimonials h1:after{
+.our-team h1:after, .main-services h1:after, .main-clients h1:after, .main-testimonials h1:after, .main-work h1:after{
     content: "";
     position: absolute;
     bottom: 20px;
@@ -227,6 +227,24 @@ main .main-about {
     margin: 40px;
 }
 
+.main-work {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-work p{
+    color: #6c6c6c;
+    margin-bottom: 175px;
+}
+
+.main-work .works img:hover{
+    opacity: 0.7;
+}
+
+.main-work img {
+    margin: 5px;
+}
+
 
 
 
@@ -272,6 +290,10 @@ main .main-about {
 @media screen and (max-width: 1105px) {
     nav {
         margin-left: 10%;
+    }
+
+    .line1 img:not(:first-child), .line2 img:not(:first-child), .line3 img:not(:first-child) {
+        display: none;
     }
 }
 

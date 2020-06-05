@@ -126,14 +126,14 @@ main .main-about {
     color: #fff;
 }
 
-.our-team h1 {
+.our-team h1, .main-services h1 {
     position: relative;
     font-size: 44px;
     padding-bottom: 30px;
     margin-bottom: 55px;
 }
 
-.our-team h1:after {
+.our-team h1:after, .main-services h1:after{
     content: "";
     position: absolute;
     bottom: 20px;
@@ -175,7 +175,35 @@ main .main-about {
     font-size: 14px;
 }
 
+.main-services {
+    padding: 100px 0;
+    text-align: center;
+}
+.main-services i {
+    color: #6c6c6c;
+}
 
+.services-card {
+    margin-top: 80px;
+}
+
+.services-cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.services-card h4 {
+    margin: 30px 0 20px 0;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.services-card p {
+    font-size: 14px;
+    color: #6c6c6c;
+}
 
 
 
@@ -214,6 +242,9 @@ main .main-about {
     }
     .cards {
         flex-direction: column;
+    }
+    .services-cards {
+        grid-template-columns: auto auto;
     }
 }
 
@@ -255,6 +286,9 @@ main .main-about {
         display: block;
         text-align: left;
         right: -200px;
+    }
+    .services-cards {
+        grid-template-columns: auto;
     }
 }
 

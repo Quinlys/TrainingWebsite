@@ -304,6 +304,15 @@ textarea, input {
     text-align: left;
 }
 
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #202020;
+}
+
+.footer img {
+    margin: 0 10px;
+}
 
 
 
